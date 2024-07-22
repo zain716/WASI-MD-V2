@@ -1,18 +1,4 @@
-{
-   "name": "wasi-md-v2",
-   "version": "2.5.0",
-   "description": "Multi device whatsapp bot by itxxwasi ....",
-   "main": "index.js",
-   "type": "commonjs",
-   "scripts": {
-      "run": "pm2 start . --deep-monitoring --attach --name Itxxwasi || node .",
-      "Itxxwasi ": "pm2 start . --deep-monitoring --attach --name Itxxwasi || node .",
-      "start": "pm2 start . --attach --name Itxxwasi",
-      "stop": "pm2 stop Itxxwasi",
-       "heroku-postbuild": "git clone https://github.com/Itxxwasi/WASI-MD-V2.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/Itxxwasi/WASI-MD-V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
-      "postinstall": "npx puppeteer@latest install --y"
-      {
+  {
   "name": "WASII MD",
   "version": "4.0.0",
   "description": "Queen Elisa Automated whatsapp md bot created by mr nima using nodejs and baileys lib",
